@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <title> </title>
+    </head>
+    <body>
+         <link rel="stylesheet", href="main.css">
+        <h1> Christain bale  <img src="imdblogo.jpeg", width="100" > data anlysis</h1>
+        <iframe src="https://giphy.com/embed/7NMG9vPM5kTpC" width="480" height="451" frameBorder="0" id="giphy-embed" allowFullScreen></iframe>
+        <div id="info-bale">
+        <p >Christian Bale is an award-winning actor who has starred in such films as 
+            'American Psycho,' 'The Fighter' and Christopher Nolan's 'Batman' trilogy. 
+            Born in 1974 in Pembrokeshire, Wales, actor Christian Bale first enjoyed major feature film success in 
+            Steven Spielberg's Empire of the Sun (1987). Returning to the spotlight with the sadistic American Psycho (2000), 
+            he dropped more than 60 pounds for The Machinist (2004) before beefing up for a superhero role in Batman Returns (2005) 
+            and its two sequels. Bale won an Oscar for his performance in The Fighter (2010) 
+            and later earned recognition for his roles in American Hustle (2013), The Big Short (2015) and Vice (2018). 
+        </p>
+    </div>
+        <p>
+            I've awlays considered myslef to be a chritsian bale and 
+            some of my favotite movies my him are  Dark Knight Rises, The prestige and The Dark Knight. But upon looking at 
+            his IMDB page, I noticed that he had acted in over 52 movies. 
+            I was really curious about 
+            the other movies christaian bale acted in. I was used to watching more of his action/thriller and drama movies.
+            A lot of question came to my mind like - 
+            <ul>
+                <li> What other kind of movies did christaon bale act in</li>
+                <li> Does he act in a diverse type of films</li>
+                <li>What kind of movies is he critically aclaimed for?</li>
+                <li>Which movies did he win an award for? </li>
+            </ul>
+        </p>
+
+        </p> 
+            To beigin this task I had to collect all information about the actor and the movies he acted in. 
+            I parsed the actors page to get the name of the movies and the link to access the page. Once I 
+            got the links of all the movies Christian bale acted in, I parsed through all of them and collected meta 
+            data about the movie. I skipped all movies that had less than a 1000 reviews which removed all the small indepndent
+            films
+            and commercials he acted in. For each movie I collected some meta data like ratings, keywors, number of reviews etc.
+            It outputed 40 rows and this is how the table I got. </br></br>
+
+          
+        </p>
+        <p>
+                <img src="table.png", width="800", id = 'table' >
+        </br>
+        </p>
+
+        <p>
+            I was curious what his words defined his movies best. IMDB had data for the top keywrds that defined a movies best.
+            For each movie I took the top 50% best keywords that defined a movies and plotted a word cloud for it.
+            <p style="text-align:center;">You can hover over the words to look at the occurance of each keyword</p>
+        </p>
+        <div id="container" ></div>
+       
+        <p>
+            We see words like <strong>death</strong>, <b>murder</b>, <b>Violence</b> have the highest occurace. This alligns with kind of movies Christian Bale acts in 
+            which are mostly thriller and action based. We also see keywords like <b>husnad-wife relationship</b> and <b>father-son
+                    relationship</b>  which implies he has acted in lot of drama movies. ALso, the word <b>BARE CHESTED MALE</b> 
+             made it. Christain bale is known for his shirtless takes in movies. 
+        </p>
+        <p>
+                <img src="http://25.media.tumblr.com/tumblr_lynimpj5mB1qgeyd8o1_r2_500.gif", width="300" id = 'bare'>
+        </p>
+
+        <p>
+            Next I wanted to see what are the most popualr movies Bale acted based on the Genre. I defined 
+            populariy as the number of votes a movie recieved. Even if a movie had a low rating but a large number 
+            of reviews it will still be considred popualr. </br>
+            <p style="text-align:center;">You can Hover over the bubble to look at the movie name and number of reviews </p>
+        </p>
+
+
+        <div id="container2" ></div>
+    </br>
+
+    <p>
+        We see that christian bale acted in mostly Action and Drama based movies. Some of his most poular movies 
+        are <b>The Batman Triology</b>, <b>Prestige</b> and <b>American Psycho</b>.
+    </p>
+</br>
+    <p>
+       Next I want to look at the accomplishments of Bale i.e the awards he won over the years.
+       <p style="text-align:center;">You can Hover over the timeline to view more information </p>
+    </p>
+
+        <div id="container3" ></div>
+
+        <p>
+            Seens like christian Bale did really well in the Movies the Fighter, getting him 3 awards over the span of three years. 
+            He also won his one and only oscar for the movie Fighter in 2011.
+        </p>
+
+        <iframe src="https://giphy.com/embed/37mOslcvy2Fyc7Wyuj" width="480" height="261" frameBorder="0" id="giphy-embed" allowFullScreen></iframe>
+       
+
+        <script src = 'https://code.highcharts.com/highcharts.js'></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://code.highcharts.com/highcharts-more.js"></script>
+        <script src="https://code.highcharts.com/modules/exporting.js"></script>
+        <script src="https://code.highcharts.com/modules/wordcloud.js"></script>
+        <script src="https://code.highcharts.com/modules/timeline.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+
+
+
+
+        <script src = 'main.js'></script>
+        
+    </body>
+</html>
