@@ -47,7 +47,7 @@ Highcharts.chart('container', {
         name: 'Occurrences'
     }],
     title: {
-        text: 'Wordcloud of Movie Keywords'
+        text: 'Wordcloud of Keywords in Movies'
     },
     chart:{
         backgroundColor: '#FFFFF0'
@@ -65,7 +65,7 @@ Highcharts.chart('container2', {
         text: 'Popularity of Movies'
     },
     subtitle: {
-        text: 'Numer of ratings On IMDB for Movies Christian Bale acted in Based On Genre'
+        text: 'Numer of ratings On IMDB Based On Genre'
     },
     tooltip: {
         useHTML: true,
@@ -189,7 +189,7 @@ Highcharts.chart('container3', {
     ],
     series: [{
         data: [{
-            name: 'Best Actor (UK)',
+            name: 'Best Actor ',
             label: '2009: The Dark Knight',
             description: 'Bale won the award for the movie The Dark Knight at Empire Awards, UK'
         },{
@@ -197,7 +197,7 @@ Highcharts.chart('container3', {
             label: '2010: The Fighter Best Actor',
             description: 'Bale won the award for the movie The Fighter at th Austin Film Critics Award'
         }, {
-            name: 'Best Performance by an Actor in a Supporting Role',
+            name: 'Best Actor in a Supporting Role ',
             label: '2011: The Fighter',
             description: 'Bale won his first ever Academy Awards for the Movie The Fighter'
         }, {
@@ -209,7 +209,7 @@ Highcharts.chart('container3', {
             label: '2013:American Hsutle',
             description: 'Won for the at the NYFCO Award movie American Hsutle'
         }, {
-            name: 'Outstanding Performance by a Cast in a Motion Picture',
+            name: 'Outstanding Performance by a Cast',
             label: '2014: American Hsutle',
             description: 'Won for the movie American Hsutle at the Screen Actors Guild Awards'
         }, {
